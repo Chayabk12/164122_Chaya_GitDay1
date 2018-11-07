@@ -1,0 +1,141 @@
+<html>
+<head>
+<title>
+online store
+</title>
+<style>
+*{
+    box-sizing : border-box;
+ }
+
+body{
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+background-color: "white";
+text-align: center;
+color: black;
+}
+
+nav
+{
+float:left;
+width:29%;
+height:500px;
+background: #ccc;
+padding:60px
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    
+    width: 71%;
+    background-color: #f1f1f1;
+    padding: 70;
+    height: 500px;
+}
+
+
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ 
+</style>
+</head>
+<body>
+<body>
+<header style="width:100%">
+<table border=1>
+<tr>
+<th STYLE="background-color: #ccc;width : 28%;" >   <img src = "logo.png" style= "background-color: #f1f1f1; width=40% height:55%"></th>
+<th colspan="4" style= "background-color: #f1f1f1; width=60% ; font-size : 180%; font-family:courier;"> Madhu online book store </th>
+</tr>
+<tr>
+<td align="center"><a href= "bs.html">Home</a></td>
+<td align="center"><a href= "login.html">login</a></td>
+<td align="center"><a href= "registration.html"> Registration</a></td>
+<td align="center"><a href= "catalog.html"> Catalog</a></td>
+<td align="center"><a href= "cart.html"> Cart</a></td>
+</table>
+
+
+<section>
+<nav>
+<ul>
+      <li><a href="cse">CSE</a></li>
+      <li><a href="ece">ECE</a></li>
+      <li><a href="ISE">ISE</a></li>
+      <li><a href="eee">EEE</a></li>
+</ul>
+</nav>
+<article>
+<h2> Registration Form</h2>
+<form>
+<table align = "center">
+<tr>
+<td>
+ Name:</td>
+<td> <input type="text" name="firstname" value=""></td>
+</tr>
+<tr>
+ <td> Password:</td> 
+<td> <input type="password" name="lastname" value=""></td>
+ </tr>
+
+<tr>
+<td>Email:</td> 
+<td>
+<input type="text" name="" value="">
+</td>
+<tr>
+<td> Phone No:</td> 
+<td><input type="text" name="lastname" value=""></td>
+</tr>
+<tr>
+<td>Gender : </td> 
+<td> <input type="radio" name="gender" value="male"> Male
+ <input type="radio" name="gender" value="female"> Female<br></td>
+</tr>
+
+<tr>
+<td> Date of birth:  </td>
+<td>
+<select name = "month">
+<option value = "jan"> jan </option>
+<option value = "feb"> feb </option>
+</select>
+<select name = "day">
+<option value = "1">1 </option>
+
+<option value = "2"> 2 </option>
+</select>
+<select name = "year">
+<option value = "2014"> 2014 </option>
+<option value = "2015"> 2015</option>
+<option value = "2016"> 2014 </option>
+</tr>
+<tr>
+<td>Languages Known </td>
+<td><INPUT TYPE="Checkbox" Name= "" Value ="">Eng
+ &nbsp<INPUT TYPE="Checkbox" Name= "" Value ="">Telugu
+&nbsp <INPUT TYPE="Checkbox" Name= "" Value ="">Hindi</td>
+</tr>
+<tr>
+<td> Address</td>
+<td> <input type = "text" >
+</tr>
+<br><br>
+<tr>
+  <td><input type="submit" value="Submit"></td>
+  <td><input type="submit" value="Clear"></td>
+</tr>
