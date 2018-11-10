@@ -1,16 +1,21 @@
+
+
+
 <html>
 <head>
 <style>
 * {
-
+float: auto;
   box-sizing: border-box;
 background-color: lightyellow;
  font-style: italic;
 
-} .menu {
+}
+ .menu {
   font-style: italic;
   float: left;
   width: 20%;
+background-color: lightyellow;
 }
 .menuitem {
   padding: 8px;
@@ -24,12 +29,25 @@ background-color: lightyellow;
   overflow: hidden;
 }
 .right {
-  background-color: red;
-  float: right;
+background-color: red;
+  float: left;
   width: 20%;
-  padding:10px 15px ;
-  margin-top: 7px;
+  padding: 0px 20px ;
+margin-left: 730px;
+  margin-top: -189px;
+  height:35%
+  
 }
+.bottom {
+  background-color: white;
+  float: left;
+  width: 60%;
+  padding:0 20px ;
+  margin-top: 7px;
+  margin-left: -23px;
+  height:35%
+}
+
 .centered {
     position: absolute;
     top: 50%;
@@ -37,38 +55,38 @@ background-color: lightyellow;
     transform: translate(-50%, -50%);
 font-style: italic;
 font-size: 35;
+background-color: white;
 }
 </style>
 </head>
 <body>
-<div style="background-color:#ffffcc;padding:15px;">
+<div style ="padding:15px;">
   <h1>JOE'S PIZZA CO</h1>
 </div>
 <div style="overflow:auto">
   <div class="menu">
-    <div class="menuitem">Home</div>
+ <div class="menuitem">Home</div>
     <div class="menuitem">About</div>
     <div class="menuitem">News</div>
     <div class="menuitem">Menu</div>
 <div class="menuitem">Location</div>
-<div class="menuitem">Bookings</div>
+<div class="menuitem">Bookings</div> 
   </div>
 
   <div class="main">
  <img src="p.jpg" style="width:100%">
      <div class="centered">NEW YORK'S BEST PIZZA</div>
-    <h2>Welcome to Joe's Pizza Co.</h2>
-    <p>We pride ourselves on serving up the best pizzas in new york.C ome and visit one of our family-friendly restaurants and take a look at our wide range of aunthentic Italian pizzas. We can also deliver direct to your door with our speedy takeaway service.</p>
-   
+    <div class="bottom"><h2 style="background-color:white">Welcome to Joe's Pizza Co.</h2>
+    We pride ourselves on serving up the best pizzas in new york.C ome and visit one of our family-friendly restaurants and take a look at our wide range of aunthentic Italian pizzas. We can also deliver direct to your door with our speedy takeaway service.
+   </div>
   </div>
 
-  <div class="right">
-    <h2>Special Offers</h2>
-    <p>10% off All pizza When You Eat iN!</P>
-<BR>
-    <p>20% Off Joe's Pepperons Special With the promo code NYBESTPIZZA </P>
+  <div class="right"  background color: "red">
+    Special Offers <br><br>
+    10% off All pizza When You Eat iN!<br><br>
+    20% Off Joe's Pepperons Special With the promo code NYBESTPIZZA 
     
-    <p>The Walk is free!</p>
+   The Walk is free!
   </div>
 </div>
 </body>
