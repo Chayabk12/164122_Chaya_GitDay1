@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>BMI</title>
+</head>
+<body>
+<script>
+ var mark_height;
+ var mark_mass;
+ var john_mass;
+ var john_height;
+ var bmi_mark;
+ var bmi_john;
+ 
+ mark_height= parseInt(prompt(" Enter mark's Height in Meters"));
+ mark_mass= parseInt(prompt("Enter mark's Mass in Kgs"));
+     bmi_mark=mark_mass/(mark_height * mark_height);
+	 document.write("bmi_mark =" +bmi_mark + "<br>");
+ john_height=parseInt(prompt("Enter john's height in meters"));
+ john_mass= parseInt(prompt("Enter john's mass in Kgs"));
+ bmi_john=john_mass/(john_height * john_height);
+ document.write("bmi_john=" + bmi_john + "<br>");
+ document.write("Is Mark's BMI higher than John's?" + "<br>");
+  document.write( (bmi_mark>bmi_john) ? true : false);
+ </script>
+ 
