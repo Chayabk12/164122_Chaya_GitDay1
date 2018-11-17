@@ -1,0 +1,34 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+
+var no_product= parseInt(prompt("Enter the number of products"));
+var i;
+ 
+ for(i=1;i<=no_product; i++)
+{
+
+       print_all_details();
+}	   
+  
+ function product()
+ {
+  product_id= prompt("enter the product id=");
+  product_name = prompt("Enter the name of the product");
+  product_price= prompt("Enter the price of the product");
+  product_description= prompt("enter the product description");
+ }
+  
+  function  print_all_details()
+  {
+   product();
+ console.log(product_id);
+ console.log(product_name);
+console.log(product_price); 
+console.log(product_description);
+  }
+ 
+ 
+  </script>

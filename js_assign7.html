@@ -1,0 +1,56 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+	
+  var object =
+  {
+  
+     bill: new Array (48, 124, 280,154, 785)
+  
+  };
+
+  var tips=new Array(5);
+  var total= new Array(5);
+  var tip;
+  
+   var i;
+   for( i=0; i<5; i++)
+   {
+   
+      if( object.bill[i]> 50)
+	  
+	  {
+	     tip= object.bill[i]*0.2
+		 tips[i]=tip;
+		 total[i]=object.bill[i]+ tips[i];
+	  }
+    else if (object.bill[i]>50 && object.bill[i]<200)
+ {
+     tip=object.bill[i]*0.15;
+  tips[i]=tip1;
+   total[i] = object.bill[i]+tips[i];
+  
+ }
+ else{
+         tip= 0.1* object.bill[i];
+        tips[i] =tip;
+         total[i]= object.bill[i]+tips[i]; 
+ }
+	  }
+	  
+ document.write(" the tips paid by the family" + "<br>");
+
+	  for (i=0; i<5;i++)
+	  {
+	document.write(  tips[i] + "<br>");
+}
+document.write(" the total list of bills paid by the family" + "<br>");
+for (i=0; i<5;i++)
+	  {
+	document.write(  total[i] + "<br>");
+}
+  
+  
+</script>

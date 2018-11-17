@@ -1,0 +1,60 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+
+var mark= {
+    
+	name: "mark",
+	mass: 69,
+	height: 5.5,
+     bmi_of_mark: function ()
+	 {
+	  var   bmi=this.mass/(this.height*this.height);
+		return bmi;
+		
+     }
+	 
+	 };
+	 
+	 
+	 var john =
+	 {
+	 name1: "john",
+	 mass1 : 50,
+	 height1 : 6,
+	 bmi_of_john : function()
+	 
+	 {
+          var 	bmi1=this.mass1/(this.height1* this.height1); 
+		return bmi1;
+	 }
+	 
+	 
+	 };
+	 
+	 var bmimark= mark.bmi_of_mark();
+	 var bmijohn= john.bmi_of_john();
+	 
+if( bmimark > bmijohn)
+	 {
+	     document.write (true);
+		 document.write("<br>");
+		 document.write("bmi of mark is greater than bmi of john");
+		  console.log(mark.bmi_of_mark()); 
+		  console.log("bmi of mark is greater than bmi of john");
+	}
+	else
+	{
+		  document.write (false);
+	console.log(false);
+		  
+	}
+		
+	
+	</script>
+	
+	
+	
+	  
