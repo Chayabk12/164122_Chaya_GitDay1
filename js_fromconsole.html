@@ -1,0 +1,47 @@
+<html>
+<head>
+</head>
+<body>
+</script>
+
+
+<p>click here</p>
+
+<button onclick="display()">Products</button>
+
+<p id="pro"></p>
+
+<script>
+
+
+   
+
+
+ function display()
+{
+  var product_id = prompt("enter the Product Id");
+console.log(product_id);
+ var product_name= prompt(" enter the product name");
+console.log(product_name);
+
+
+  var product_description = prompt("enter about the product");
+console.log(product_description);
+
+var type= prompt("Enter the type of the product");
+console.log(type);
+var category= prompt(" enter the category of the product");
+console.log(category);
+document.getElementById("pro").innerHTML= "Product id is" + product_id + "<br>" + "Product name is"  + product_name + "<br>" +
+product_description + "<br>" + "The type of the product is" + type +  "<br>" + "category" + " " + category;
+
+
+
+}
+
+
+
+</script>
+
+</body>
+</html>
