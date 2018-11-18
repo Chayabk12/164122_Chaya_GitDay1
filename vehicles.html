@@ -1,0 +1,48 @@
+<html>
+  <head>
+  </head>
+  <body>
+  <script>
+   
+   var vehicle1 =
+         
+    {
+ 	make  :  "Porsche",
+        model :  "Panamera",
+        price :  "6852342",
+        color :  "black",
+        year  :  1999,
+       
+      features : function ()
+		{
+			return this.make + " " + this.model + " " + this.color + " " + this.year;
+     }
+
+   };
+
+     var vehicle2 =
+
+     {
+        
+        make : "toyota",
+	model : "corona",
+
+	price : 9898695,
+	color : "white",
+	year  : 1966,
+
+	features: function ()
+		{
+			return this.make + " " + this.model + " " + this.price + " " + this.color + " " + this.year ;
+                }
+
+
+
+      };
+
+     
+     alert(vehicle1.features() +"\n" + vehicle2.features());
+
+</script>
+</body>
+</html>
